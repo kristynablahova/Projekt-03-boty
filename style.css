@@ -25,6 +25,7 @@ body {
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    background-color: #f5f5f5;
 }
 
 
@@ -32,3 +33,104 @@ h1 {
     font-weight: 500;
 }
 
+/* Vizual */
+.zbozi {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    margin: 100px;
+}
+.vizual {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    color: white;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    width: 335px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+}
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+.bota {
+    position: absolute;
+    top: 135px;
+    left: -80px;
+}
+.cenovka {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.vnoreny {
+    display: flex;
+    flex-direction: column;
+}
+
+/* detaily */
+.detaily {
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    padding: 30px;
+    box-shadow: 1px 1px 10px #959595;
+    width: 335px;
+}
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.produkt, .popis, .velikosti, .akce, .parametr {
+    font-size: 14px;
+    font-weight: 400;
+}
+.popis {
+    border-top: none;
+    border-bottom: #06d7c1;
+    border-width: 2px;
+    border-style: none none solid none;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.produkt {
+    color: #959595;
+}
+.parametr {
+    text-transform: uppercase;
+}
+.velikosti {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 80px;
+}
+.tlacitko {
+    text-transform: uppercase;
+    background-color: #f15f42;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+li {
+    display: inline;
+}
+.vybrana {
+    color: #f15f42;
+    border-radius: 50px;
+    border-color: #f15f42;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+}
